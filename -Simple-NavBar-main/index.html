@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>NavBar</title>
+        <link rel="stylesheet" href="style.css">
+    </head>
+    <body>
+        <div class="header">
+            <nav id="navbar">
+                <img src="./img/nike.png" class="logo">
+
+                <ul id="menu">
+                    <li>Home</li>
+                    <li>About</li>
+                    <li>Product</li>
+                    <li>Services</li>
+                    <li>Contact us</li>
+
+                </ul>
+            </nav>
+        </div>
+        <p class="text">
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Maiores ex aperiam voluptate atque eum quos incidunt earum asperiores dolorum dolorem, dicta, mollitia numquam placeat possimus officiis deserunt magni, iste ullam unde magnam ab? Tempore repellendus iste sunt cum enim pariatur ut eum velit? Magnam tenetur cum error. Placeat tempora, ipsam neque nostrum quia ut atque. Quos iure ipsa iusto dolores nihil obcaecati, labore maxime pariatur enim debitis veritatis omnis et, quae nobis quaerat. Adipisci officia maiores libero tenetur sed eum, aut culpa in id inventore deserunt rerum a quas iusto ut sunt vero laborum, facilis vitae consequatur dignissimos at! Sint!
+        </p><br>
+        <p class="text">
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Dignissimos, totam dicta? Pariatur, iusto eaque laudantium corporis, quas vitae optio animi molestiae obcaecati inventore velit quos, voluptas tenetur nihil! Blanditiis minus aperiam voluptate quo molestias, ipsa necessitatibus in sequi dolor similique odio labore! Quisquam quidem similique, laborum excepturi facilis animi? Tempore, iste! Quisquam a officia consequatur esse ad quam atque ullam ipsa cum eos beatae itaque consectetur ea numquam explicabo est, inventore amet labore aperiam cumque corrupti pariatur neque? Et nihil animi aut magnam minima, nostrum sequi modi illo veniam? Incidunt nulla earum fuga eius quos nisi! Nihil ipsam quasi cum atque voluptates autem dolores dignissimos quam tempore facilis dolorum porro facere quo veritatis velit incidunt ipsum sint, asperiores sunt illum quisquam magnam assumenda ab dolore? Incidunt, fuga? Explicabo sunt reprehenderit recusandae eos voluptate rerum veritatis error voluptatibus dignissimos nemo. Id ratione, cumque saepe dolores omnis eum adipisci voluptatibus nobis consectetur quas deleniti officiis recusandae ex harum vero similique obcaecati! Autem similique enim accusantium quis nemo necessitatibus odit eum incidunt illo, deserunt suscipit ad itaque repellat tenetur totam libero ipsum esse quam dignissimos. Cupiditate cumque atque distinctio blanditiis minus laboriosam, natus, molestiae, non maxime possimus id culpa accusantium a aperiam laborum.
+        </p>
+
+        <script>
+            var NavBar=document.getElementById("navbar");
+            var menu=document.getElementById("menu");
+
+            window.onscroll=function(){
+                if(window.pageYOffset >=menu.offsetTop){
+                    navbar.classList.add("sticky");
+                }else{
+                    navbar.classList.remove("sticky");
+
+                }
+            }
+
+        </script>
+
+    </body>
+</html>
